@@ -1,4 +1,6 @@
 .devenv
 
+.DS_Store
+
 fmaf/public
 fmaf/resources

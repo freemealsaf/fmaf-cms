@@ -33,11 +33,8 @@
                   # https://devenv.sh/reference/options/
                   packages = [ pkgs.hugo pkgs.dart-sass ];
 
-                  #enterShell = ''
-                  #  hello
-                  #'';
-
-                  #processes.hello.exec = "hello";
+                  # for hugo modules
+                  languages.go.enable = true;
                 }
               ];
             };

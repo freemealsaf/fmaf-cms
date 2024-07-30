@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ $page := . }}
+
+<div style="text-align:center; margin-top: 50px; margin-bottom: 50px;">
+    {{ partial "svg" (dict "name" "logo3" "class" "") }}
+</div>
+
+{{ partial "paige/page.html" $page }}
+{{ partial "paige/list.html" $page }}
+
+{{ partial "paige/comments.html" $page }}
+
+{{ end }}

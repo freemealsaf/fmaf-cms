@@ -1,4 +1,67 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'Free Meals Appalachia'
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[params.paige]
+# "#0d6efd" # Bootstrap primary color and theme color for Safari and Windows
+color = "#177c4a"
+
+# Must be "auto", "dark", or "light"
+color_scheme = "auto"
+
+credit = '<a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige">Paige Theme</a>'
+
+# Hugo date format
+date_format = ":date_long"
+description = "We keep us fed." # Site description. Appears above the menu, below the site title, if set.
+edit = "" # File edit URL. Example: "https://github.com/account/project/edit/master/content/%s".
+external_link_new_tab = false # Open external links in new tabs
+history = "" # File history URL. Example: "https://github.com/account/project/commits/master/content/%s".
+keyword_style = "text" # Must be "text" or "pills"
+license = "" # Example: "CC BY 4.0 License", "CC BY-NC 4.0 License", "MIT License"
+math = false # Enable math typesetting
+menu_style = "pills" # Must be "links", "pills", "tabs", or "underline"
+title = "Free Meals Appalachia" # Site title. Appears above the menu, above the site description, if set.
+style = """
+/*
+.logo {
+    max-height: 200px;
+    max-width: 200px;
+}
+*/
+""" # CSS included at the end of the stylesheet, before style-last.css
+
+[params.paige.site]
+disable_breadcrumbs = true
+disable_copyright = false
+disable_credit = true
+disable_description = false
+disable_license = false
+disable_menu = false
+disable_title = false
+
+
+[paige.search]
+disable = false # Exclude the page from search
+
+[params.paige.list_page]
+disable_authors = true
+disable_date = true
+disable_keywords = true
+disable_reading_time = true
+disable_series = true
+disable_summary = true
+disable_title = false
+
+[params.paige.page]
+disable_authors = true
+disable_date = true
+disable_keywords = true
+disable_next = true
+disable_prev = true
+disable_reading_time = true
+disable_series = true
+disable_toc = true
