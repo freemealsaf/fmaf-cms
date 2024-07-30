@@ -7,7 +7,7 @@ path = "github.com/willfaught/paige"
 
 [params.paige]
 # "#0d6efd" # Bootstrap primary color and theme color for Safari and Windows
-color = "#177c4a"
+color = '#2aaf11ff' #"#177c4a"
 
 # Must be "auto", "dark", or "light"
 color_scheme = "auto"
