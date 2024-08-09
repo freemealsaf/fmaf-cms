@@ -2,4 +2,4 @@
 title = "Contact"
 +++
 
-{{< contact "/success" >}}
+{{< contact >}}
