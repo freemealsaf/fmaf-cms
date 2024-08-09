@@ -2,3 +2,4 @@
 title = "Contact"
 +++
 
+{{< contact "/success" >}}
