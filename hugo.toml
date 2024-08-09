@@ -1,67 +1,88 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Free Meals Appalachia'
+theme = 'hugo-flex'
 
-[[module.imports]]
-path = "github.com/willfaught/paige"
+[params]
+color = "green"
+width = "42rem"
+divider = "\\2500\\2500"
+footer = 'Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.'
+rss = "To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader."
+favicon = false
+noClasses = false
+katex = "0.16.10"
+headingoffset = 0
+linkicons = false
+summaries = true
+schema = false
+opengraph = false
+twittercards = false
+math = false
 
-[params.paige]
-# "#0d6efd" # Bootstrap primary color and theme color for Safari and Windows
-color = '#2aaf11ff' #"#177c4a"
+[params.utterances]
 
-# Must be "auto", "dark", or "light"
-color_scheme = "auto"
+[params.netlify]
+honeypot = true
+recaptcha = false
 
-credit = '<a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige">Paige Theme</a>'
+[params.mathdelim]
+block = [["\\[", "\\]"], ["$$", "$$"]]
+inline = [["\\(", "\\)"]]
 
-# Hugo date format
-date_format = ":date_long"
-description = "We keep us fed." # Site description. Appears above the menu, below the site title, if set.
-edit = "" # File edit URL. Example: "https://github.com/account/project/edit/master/content/%s".
-external_link_new_tab = false # Open external links in new tabs
-history = "" # File history URL. Example: "https://github.com/account/project/commits/master/content/%s".
-keyword_style = "text" # Must be "text" or "pills"
-license = "" # Example: "CC BY 4.0 License", "CC BY-NC 4.0 License", "MIT License"
-math = false # Enable math typesetting
-menu_style = "pills" # Must be "links", "pills", "tabs", or "underline"
-title = "Free Meals Appalachia" # Site title. Appears above the menu, above the site description, if set.
-style = """
-/*
-.logo {
-    max-height: 200px;
-    max-width: 200px;
-}
-*/
-""" # CSS included at the end of the stylesheet, before style-last.css
+[markup.highlight]
+noClasses = false
 
-[params.paige.site]
-disable_breadcrumbs = true
-disable_copyright = false
-disable_credit = true
-disable_description = false
-disable_license = false
-disable_menu = false
-disable_title = false
+[markup.goldmark.extensions.passthrough]
+enable = false
 
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [["\\[", "\\]"], ["$$", "$$"]]
+inline = [["\\(", "\\)"]]
 
-[paige.search]
-disable = false # Exclude the page from search
+[[menu.main]]
+name = "About"
+pageRef = "/about"
+weight = 1
 
-[params.paige.list_page]
-disable_authors = true
-disable_date = true
-disable_keywords = true
-disable_reading_time = true
-disable_series = true
-disable_summary = true
-disable_title = false
+[[menu.main]]
+name = "News"
+pageRef = "/news"
+weight = 2
 
-[params.paige.page]
-disable_authors = true
-disable_date = true
-disable_keywords = true
-disable_next = true
-disable_prev = true
-disable_reading_time = true
-disable_series = true
-disable_toc = true
+[[menu.main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 3
+
+[[menu.main]]
+name = "Donate"
+pageRef = "/donate"
+weight = 4
+
+[[menu.main]]
+name = "Volunteer"
+pageRef = "/Volunteer"
+weight = 5
+
+#[[menu.main]]
+#name = "Tags"
+#pageRef = "/tags"
+#weight = 3
+
+#[[menu.main]]
+#name = "Categories"
+#pageRef = "/categories"
+#weight = 4
+
+#[[menu.main]]
+#name = "RSS"
+#pageRef = "/"
+#weight = 5
+
+#[[menu.main.params]]
+#format = "rss"
+
+[outputFormats.rss]
+mediatype = "application/rss+xml"
+baseName = "feed"

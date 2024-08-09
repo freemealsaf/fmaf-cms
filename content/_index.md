@@ -1,12 +1,5 @@
 +++
 title = "Home"
-[paige.list_page]
-disable_collections = true
-disable_pages = true
-disable_sections = true
-
-[paige.page]
-disable_title = true
 +++
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Finibus magnis aliquet maximus tristique viverra curae morbi imperdiet. Neque leo mauris torquent praesent at; pretium velit adipiscing. Congue et iaculis mattis vestibulum nisi malesuada facilisi. Ullamcorper inceptos ipsum maecenas tempor ridiculus felis suspendisse. Eros mi id orci sapien parturient eros vestibulum.
