@@ -2,4 +2,4 @@
 title = "Donation"
 +++
 
-# Donation Canceled
+Donation canceled.

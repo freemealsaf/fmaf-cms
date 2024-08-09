@@ -2,6 +2,4 @@
 title = "Donation"
 +++
 
-# Donation Received
-
-Thank you!
+Donation received! Thank you.
