@@ -1,7 +1,7 @@
 +++
 title = 'My First Post'
 date = 2024-01-14T07:07:07+01:00
-draft = true
+draft = false
 +++
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Parturient facilisis ultricies nascetur curae diam pharetra tellus sem. Torquent dapibus tempus justo eget ut mollis amet egestas. Natoque laoreet urna facilisis pretium lacus mollis vulputate. Amet molestie vestibulum taciti consectetur diam; tempor fames est! Euismod viverra et platea aptent senectus magnis elementum. Ullamcorper tristique enim at metus finibus. Id tristique eleifend dapibus consectetur elementum tellus faucibus per.

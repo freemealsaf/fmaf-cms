@@ -1,7 +1,7 @@
 +++
 title = 'My Second Post'
 date = 2024-01-14T07:07:07+01:00
-draft = true
+draft = false
 +++
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Finibus hendrerit lectus egestas potenti erat risus. Accumsan vulputate montes fringilla venenatis himenaeos nec nullam. Blandit lectus ad volutpat ultrices ut arcu quisque tellus? Bibendum ornare elementum scelerisque tempor praesent consequat habitasse suscipit sed. Habitant porta dignissim vulputate nisl magna dolor, lacinia mi sem. Ornare neque efficitur torquent vestibulum urna efficitur ad mi natoque. Commodo sagittis enim blandit pharetra, sociosqu ac felis.
