@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://fmaf-cms.netlify.app/'
 languageCode = 'en-us'
 title = 'Free Meals Appalachia'
 theme = 'hugo-flex'
