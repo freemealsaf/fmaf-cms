@@ -14,7 +14,6 @@
         {{ with .Content }}{{ end }}
         {{ end }}
         {{ partial "assets.html" . }}
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
 
     <body>
@@ -30,18 +29,6 @@
             </div>
         </main>
         {{ partialCached "footer.html" . }}
-
-        <script>
-            if (window.netlifyIdentity) {
-                window.netlifyIdentity.on("init", (user) => {
-                    if (!user) {
-                        window.netlifyIdentity.on("login", () => {
-                            document.location.href = "/admin/";
-                        });
-                    }
-                });
-            }
-        </script>
     </body>
 
 </html>
