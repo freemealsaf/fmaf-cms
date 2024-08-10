@@ -22,12 +22,6 @@
   </url><url>
     <loc>http://localhost:1313/donate/</loc>
   </url><url>
-    <loc>http://localhost:1313/cancel/</loc>
-  </url><url>
-    <loc>http://localhost:1313/completed/</loc>
-  </url><url>
-    <loc>http://localhost:1313/success/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/volunteer/</loc>

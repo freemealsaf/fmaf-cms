@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+{{ partial "heading.html" . }}
+
+<p>You can donate with Betterworld below. They don't charge a processing fee like Paypal does.</p>
+
+<betterworld-donation-button data-widget-id="W00159"></betterworld-donation-button>
+
+{{ .Content }}
+
+{{ partial "tags.html" . }}
+{{ partial "comments.html" . }}
+
+{{ end }}
