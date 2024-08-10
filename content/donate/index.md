@@ -3,6 +3,8 @@ title = "Donate"
 layout = "donate"
 +++
 
-If you have to donate with Paypal for some reason, you can do so here:
+## Paypal
+
+If you need to donate with Paypal for some reason, you can click the button below.
 
 {{< paypal >}}

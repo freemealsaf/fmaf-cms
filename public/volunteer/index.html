@@ -11,7 +11,8 @@
 
 
   
-    <meta name="description" content="Volunteer signup coming soon!">
+    <meta name="description" content="Right now you can follow our events on the Really Really Free Market Buckhannon, WV Facebook page. When an event is posted, you can click on the link to Signup Genius and sign up to volunteer at the next meal.
+We also have a volunteer email list. If you&rsquo;re on our list, you get reminders about upcoming events with links that let you sign up to volunteer. If you&rsquo;d like to be added to our list, send us a message.">
   
 
 
@@ -50,6 +51,7 @@
 
         <script type="module" crossorigin
             src="https://widgets.betterworld.org/latest/widget.js?organization=8ZA67ORG"></script>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
 
     <body>
@@ -210,7 +212,8 @@
   </h1>
   
 </header>
-  <p>Volunteer signup coming soon!</p>
+  <p>Right now you can follow our events on the <a href="https://www.facebook.com/groups/1740589632829620/" target="_blank">Really Really Free Market Buckhannon, WV Facebook page</a>. When an event is posted, you can click on the link to Signup Genius and sign up to volunteer at the next meal.</p>
+<p>We also have a volunteer email list. If you&rsquo;re on our list, you get reminders about upcoming events with links that let you sign up to volunteer. If you&rsquo;d like to be added to our list, send us a <a href="http://localhost:1313/contact/" title="">message</a>.</p>
 
   
 
@@ -234,11 +237,23 @@
   <footer class="Footer">
     <div class="u-wrapper">
       <div class="u-padding u-noboosting">
-        Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+        <a href="https://github.com/freemealsaf/fmaf-cms" target="_blank">Source Code</a>
       </div>
     </div>
   </footer>
 
+
+        <script>
+            if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", (user) => {
+                    if (!user) {
+                        window.netlifyIdentity.on("login", () => {
+                            document.location.href = "/admin/";
+                        });
+                    }
+                });
+            }
+        </script>
     </body>
 
 </html>

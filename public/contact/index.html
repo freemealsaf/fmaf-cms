@@ -52,6 +52,7 @@
 
         <script type="module" crossorigin
             src="https://widgets.betterworld.org/latest/widget.js?organization=8ZA67ORG"></script>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
 
     <body>
@@ -268,11 +269,23 @@
   <footer class="Footer">
     <div class="u-wrapper">
       <div class="u-padding u-noboosting">
-        Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+        <a href="https://github.com/freemealsaf/fmaf-cms" target="_blank">Source Code</a>
       </div>
     </div>
   </footer>
 
+
+        <script>
+            if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", (user) => {
+                    if (!user) {
+                        window.netlifyIdentity.on("login", () => {
+                            document.location.href = "/admin/";
+                        });
+                    }
+                });
+            }
+        </script>
     </body>
 
 </html>

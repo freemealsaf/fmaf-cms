@@ -7,7 +7,7 @@ theme = 'hugo-flex'
 color = "green"
 width = "42rem"
 divider = "\\2500\\2500"
-footer = 'Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.'
+footer = '<a href="https://github.com/freemealsaf/fmaf-cms" target="_blank">Source Code</a>'
 rss = "To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader."
 favicon = false
 noClasses = false

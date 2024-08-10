@@ -11,7 +11,7 @@
 
 
   
-    <meta name="description" content="If you have to donate with Paypal for some reason, you can do so here:">
+    <meta name="description" content="Paypal If you need to donate with Paypal for some reason, you can click the button below.">
   
 
 
@@ -50,6 +50,7 @@
 
         <script type="module" crossorigin
             src="https://widgets.betterworld.org/latest/widget.js?organization=8ZA67ORG"></script>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
 
     <body>
@@ -211,11 +212,19 @@
   
 </header>
 
+<h2>Betterworld</h2>
+
 <p>You can donate with Betterworld below. They don't charge a processing fee like Paypal does.</p>
 
 <betterworld-donation-button data-widget-id="W00159"></betterworld-donation-button>
 
-<p>If you have to donate with Paypal for some reason, you can do so here:</p>
+
+
+
+<h2 id="paypal">
+  <a class="Heading-link u-clickable" href="/donate/#paypal">Paypal</a>
+</h2>
+<p>If you need to donate with Paypal for some reason, you can click the button below.</p>
 <form action="https://www.paypal.com/donate" method="post" target="_top">
     <input type="hidden" name="hosted_button_id" value="UHNURUSW7LDU6" />
     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
@@ -246,11 +255,23 @@
   <footer class="Footer">
     <div class="u-wrapper">
       <div class="u-padding u-noboosting">
-        Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+        <a href="https://github.com/freemealsaf/fmaf-cms" target="_blank">Source Code</a>
       </div>
     </div>
   </footer>
 
+
+        <script>
+            if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", (user) => {
+                    if (!user) {
+                        window.netlifyIdentity.on("login", () => {
+                            document.location.href = "/admin/";
+                        });
+                    }
+                });
+            }
+        </script>
     </body>
 
 </html>
