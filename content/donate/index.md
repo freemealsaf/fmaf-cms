@@ -1,6 +1,9 @@
 +++
 title = "Donate"
 layout = "donate"
+description = "Donate to Free Meals Appalachia and create no-barrier free food resources in Buckhannon, WV."
+[params]
+  nofollow = true
 +++
 
 ## Betterworld

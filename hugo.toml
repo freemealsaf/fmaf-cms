@@ -3,13 +3,19 @@ languageCode = 'en-us'
 title = 'Free Meals Appalachia'
 theme = 'hugo-flex'
 
+[sitemap]
+changeFreq = ''
+disable = false
+filename = 'sitemap.xml'
+priority = -1
+
 [params]
-footer = 'Free Meals Appalachia Foundation 2024<br><a href="https://github.com/freemealsaf/fmaf-cms" target="_blank">Source Code</a>'
+footer = 'Free Meals Appalachia Foundation 2024<br><a href="https://github.com/freemealsaf/fmaf-cms" target="_blank" rel="license external">Source Code</a>'
 color = "purple"
 width = "42rem"
 divider = "\\2500\\2500"
 rss = "To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader."
-favicon = false
+favicon = true
 noClasses = false
 katex = "0.16.10"
 headingoffset = 0
@@ -21,15 +27,9 @@ twittercards = false
 math = false
 css = ["css/styles.css"]
 
-[params.utterances]
-
 [params.netlify]
 honeypot = true
 recaptcha = false
-
-[params.mathdelim]
-block = [["\\[", "\\]"], ["$$", "$$"]]
-inline = [["\\(", "\\)"]]
 
 [markup.highlight]
 noClasses = false

@@ -1,5 +1,6 @@
 +++
 title = "Volunteer"
+description = "Volunteer with Free Meals Appalachia to create free food resources without barriers in Buckhannon, WV."
 +++
 
 Right now you can follow our events on the {{< newtablink href="https://www.facebook.com/groups/1740589632829620/" txt="Really Really Free Market Buckhannon, WV Facebook page" >}}. When an event is posted, you can click on the link to Signup Genius and sign up to volunteer at the next meal.

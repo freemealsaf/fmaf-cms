@@ -1,6 +1,10 @@
 # Free Meals Appalachia
 
+[Free Meals Appalachia](https://freemealsappalachia.org)
+
 Website made with Hugo, using the hugo-flex theme, running on Netlify.
+
+FMA logo by Macy Souhala
 
 Favicon License
 This favicon was generated using the following graphics from Twitter Twemoji:
