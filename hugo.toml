@@ -4,10 +4,10 @@ title = 'Free Meals Appalachia'
 theme = 'hugo-flex'
 
 [params]
-color = "green"
+footer = 'Free Meals Appalachia Foundation 2024<br><a href="https://github.com/freemealsaf/fmaf-cms" target="_blank">Source Code</a>'
+color = "purple"
 width = "42rem"
 divider = "\\2500\\2500"
-footer = '<a href="https://github.com/freemealsaf/fmaf-cms" target="_blank">Source Code</a>'
 rss = "To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader."
 favicon = false
 noClasses = false
@@ -19,6 +19,7 @@ schema = false
 opengraph = false
 twittercards = false
 math = false
+css = ["css/styles.css"]
 
 [params.utterances]
 
@@ -40,15 +41,15 @@ enable = false
 block = [["\\[", "\\]"], ["$$", "$$"]]
 inline = [["\\(", "\\)"]]
 
-[[menu.main]]
-name = "About"
-pageRef = "/about"
-weight = 1
+#[[menu.main]]
+#name = "About"
+#pageRef = "/about"
+#weight = 1
 
-[[menu.main]]
-name = "News"
-pageRef = "/news"
-weight = 2
+#[[menu.main]]
+#name = "News"
+#pageRef = "/news"
+#weight = 2
 
 [[menu.main]]
 name = "Contact"
@@ -58,12 +59,12 @@ weight = 3
 [[menu.main]]
 name = "Donate"
 pageRef = "/donate"
-weight = 4
+weight = 1
 
 [[menu.main]]
 name = "Volunteer"
 pageRef = "/Volunteer"
-weight = 5
+weight = 2
 
 #
 #[[menu.main]]

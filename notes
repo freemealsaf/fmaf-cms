@@ -2,5 +2,11 @@ Shortcode for Betterworld does not seem to work because the org needs to be pass
 loads? Loading the JS locally rather than from Betterworld's site turns up an org not found, button will not be rendered
 mesage in the console. Weird.
 
+To fix above, I just made my own button with a link to Betterworld's page which is all there's did anyway with a huge blocking JS file.
+
+
+
+LICENSING
+
 
 https://softwareengineering.stackexchange.com/questions/304874/declaring-multiple-licences-in-a-github-project
