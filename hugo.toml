@@ -10,7 +10,7 @@ filename = 'sitemap.xml'
 priority = -1
 
 [params]
-footer = '<span>Free Meals Appalachia 2024</span><br><a href="https://github.com/freemealsaf/fmaf-cms" target="_blank" rel="license external">Source Code</a>'
+footer = '<span>Free Meals Appalachia 2024</span><br><a style="color:white;" href="https://github.com/freemealsaf/fmaf-cms" target="_blank" rel="license external">Source Code</a>'
 color = "green"
 width = "42rem"
 divider = "\\2500\\2500"
