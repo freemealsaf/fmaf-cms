@@ -10,8 +10,8 @@ filename = 'sitemap.xml'
 priority = -1
 
 [params]
-footer = 'Free Meals Appalachia Foundation 2024<br><a href="https://github.com/freemealsaf/fmaf-cms" target="_blank" rel="license external">Source Code</a>'
-color = "purple"
+footer = '<span>Free Meals Appalachia 2024</span><br><a href="https://github.com/freemealsaf/fmaf-cms" target="_blank" rel="license external">Source Code</a>'
+color = "green"
 width = "42rem"
 divider = "\\2500\\2500"
 rss = "To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader."

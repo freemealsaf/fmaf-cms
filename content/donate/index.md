@@ -8,12 +8,12 @@ description = "Donate to Free Meals Appalachia and create no-barrier free food r
 
 ## Betterworld
 
-You can donate with Betterworld below. They don't charge a processing fee like Paypal does.
+You can donate with Betterworld below. You cover the standard processing fee instead of Free Meals Appalachia foundation.
 
 {{< betterworld >}}
 
 ## Paypal
 
-If you prefer Paypal, you can click the button below.
+If you prefer Paypal, you can click the button below and optionally choose to cover the processing fee.
 
-{{< paypal >}}
+{{< paypalcustom >}}

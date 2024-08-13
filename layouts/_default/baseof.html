@@ -20,8 +20,10 @@
     <body>
         {{ partialCached "banner.html" . }}
         <main>
-            <div style="text-align:center; margin-top: 50px; margin-bottom: 50px;">
-                {{ partial "svg" (dict "name" "logo-small-optimized" "class" "") }}
+            <div class="logo-box">
+                <div style="text-align:center; margin-top: 25px; margin-bottom: 25px;">
+                    {{ partial "svg" (dict "name" "logo-small-optimized" "class" "") }}
+                </div>
             </div>
             <div class="u-wrapper">
                 <div class="u-padding">

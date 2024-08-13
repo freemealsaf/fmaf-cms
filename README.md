@@ -6,6 +6,8 @@ Website made with Hugo, using the hugo-flex theme, running on Netlify.
 
 FMA logo by Macy Souhala
 
+Veggie banner by Heather Schneider from volunteer photos (let me know if yours is in here)
+
 Favicon License
 This favicon was generated using the following graphics from Twitter Twemoji:
 
