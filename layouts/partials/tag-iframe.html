@@ -1,0 +1,12 @@
+{{ $params := . }}
+
+{{ $fullscreen := $params.fullscreen }}
+{{ $referrerpolicy := $params.referrerpolicy | default "no-referrer" }}
+{{ $src := $params.src }}
+{{ $title := $params.title }}
+
+<div class="yt-container">
+    <iframe class="yt-embed" {{ if $fullscreen }} allowfullscreen {{ end }} {{ with $referrerpolicy }}
+        referrerpolicy="{{ . }}" {{ end }} {{ with $src }} src="{{ . | safeURL }}" {{ end }} {{ with $title }}
+        title="{{ . }}" {{ end }}></iframe>
+</div>

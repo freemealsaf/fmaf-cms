@@ -16,3 +16,12 @@ https://softwareengineering.stackexchange.com/questions/304874/declaring-multipl
 {{ with resources.GetMatch "images/veg-banner.png" }}
             <img class="veg-banner" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
             {{ end }}
+
+
+hostinger - $7/mo - jon
+
+
+
+darker green for bars with maybe yellow for mouseover highlights
+
+lighter green for containers

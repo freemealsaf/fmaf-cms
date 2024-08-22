@@ -20,14 +20,23 @@
     <body>
         {{ partialCached "banner.html" . }}
         <main>
-            <div class="logo-box">
-                <div style="text-align:center; margin-top: 25px; margin-bottom: 25px;">
-                    {{ partial "svg" (dict "name" "logo-small-optimized" "class" "") }}
-                </div>
-            </div>
             <div class="u-wrapper">
-                <div class="u-padding">
-                    {{ block "main" . }}{{ end }}
+                <div class="box" style="margin-bottom:25px;">
+
+                    {{ with resources.GetMatch "images/fmaf-centered-logo-2.webp" }}
+                    <img class="logo" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+
+                    <!--
+                    <div style="text-align:center; margin-top: 25px; margin-bottom: 25px;">
+                        {{ partial "svg" (dict "name" "logo-small-optimized" "class" "") }}
+                    </div>
+                    -->
+                </div>
+                <div class="box">
+                    <div class="u-padding">
+                        {{ block "main" . }}{{ end }}
+                    </div>
                 </div>
             </div>
         </main>

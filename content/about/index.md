@@ -1,5 +1,6 @@
 +++
 title = "About"
+description = "Twice a month, Free Meals Appalachia provides free food resources without barriers to Buckhannon, WV."
 +++
 
-We do have history, and we plan to tell you about it when we get a chance!
+{{< youtube video="JJoVrLWBnjM" height="100px" width="640px" >}}

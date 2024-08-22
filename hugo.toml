@@ -10,7 +10,7 @@ filename = 'sitemap.xml'
 priority = -1
 
 [params]
-footer = '<span>Free Meals Appalachia 2024</span><br><a style="color:white;" href="https://github.com/freemealsaf/fmaf-cms" target="_blank" rel="license external">Source Code</a>'
+footer = '<hr><span>Free Meals Appalachia 2024</span><br><a href="https://github.com/freemealsaf/fmaf-cms" target="_blank" rel="license external">Source Code</a>'
 color = "green"
 width = "42rem"
 divider = "\\2500\\2500"
@@ -41,10 +41,10 @@ enable = false
 block = [["\\[", "\\]"], ["$$", "$$"]]
 inline = [["\\(", "\\)"]]
 
-#[[menu.main]]
-#name = "About"
-#pageRef = "/about"
-#weight = 1
+[[menu.main]]
+name = "About"
+pageRef = "/about"
+weight = 1
 
 #[[menu.main]]
 #name = "News"
@@ -54,17 +54,17 @@ inline = [["\\(", "\\)"]]
 [[menu.main]]
 name = "Contact"
 pageRef = "/contact"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Donate"
 pageRef = "/donate"
-weight = 1
+weight = 2
 
 [[menu.main]]
 name = "Volunteer"
 pageRef = "/Volunteer"
-weight = 2
+weight = 3
 
 #
 #[[menu.main]]

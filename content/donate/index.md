@@ -17,3 +17,7 @@ You can donate with Betterworld below. You cover the standard processing fee ins
 If you prefer Paypal, you can click the button below and optionally choose to cover the processing fee.
 
 {{< paypalcustom >}}
+
+## Ingredients and Supplies
+
+For now, ingredients and supplies can be donated by communicating on the {{< newtablink href="https://www.facebook.com/groups/1740589632829620/" txt="Really Really Free Market Buckhannon, WV Facebook page" >}}.
