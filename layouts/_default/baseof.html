@@ -24,7 +24,9 @@
                 <div class="box" style="margin-bottom:25px;">
 
                     {{ with resources.GetMatch "images/fmaf-centered-logo-2.webp" }}
-                    <img class="logo" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    <img class="logo"
+                        alt="Free Meals Appalachia logo by Macy Souhala featuring an assortment of WV native plants and fungi."
+                        src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                     {{ end }}
 
                     <!--
